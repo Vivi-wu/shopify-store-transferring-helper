@@ -1,0 +1,18 @@
+{
+  "name": "store-transferring-helper",
+  "version": "1.0.0",
+  "description": "Provide NPM scripts commands to facilitate Shopify online store pages transfer from one store to another store.",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "shopify-api-node": "^3.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "process": "node process.js",
+    "move": "node move.js"
+  },
+  "author": "xue.wu0112@gmail.com",
+  "license": "ISC"
+}
